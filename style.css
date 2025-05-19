@@ -1,0 +1,166 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+    
+.body-text {
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(106, 37, 116);
+    font-family: "Montserrat", sans-serif;
+}
+.heading {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.nav-links li {
+
+    list-style: none;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333333;
+}
+
+p {
+    color: #666666;
+    font-size: 16px;
+}
+
+.foto {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.nav-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 14px 16px;
+}
+.nav-links a:hover:not(.active) {
+     background-color: rgba(173, 209, 255, 0.836);
+}
+.nav-links li a.active {
+    background-color: #258d54;
+}
+.company-details{
+    overflow: hidden; 
+    padding: 3em 0em;
+    background:#64a2c4;
+    text-align: center;
+    margin-top: 5em;
+}
+
+ #footerr #col1,
+#footer #col2,
+#footer #co13{ 
+    float: left;
+    width: 320px; 
+    padding: 0px 40px 0px 40px;
+}
+   
+#footer #icon{
+    display: block;
+    margin-bottom: 1em;
+    font-size: 3em;
+}
+.copyright
+{
+    overflow: hidden;
+    padding: 3em 0em;
+    border-top: 20px solid rgb(190, 213, 248);
+    text-align: center;
+    background: #46a73d;
+}
+    
+.copyright p
+{
+    letter-spacing: 1px;
+    font-size: 0.90em;
+    color: rgb(116, 104, 104);
+}
+
+.copyright a
+{
+    text-decoration: none;
+    color: rgba(168, 255, 236, 0.8);
+}    
+
+/* Styling Social Icons */
+ul.contact{
+    margin: 0;
+    padding: 2em 0em 0em 0em;
+    list-style: none;
+}
+
+ul.contact li{
+    display: inline-block;
+    padding: 0em 0.10em;
+    font-size: 1em;
+}
+    
+ul.contact li a{
+    color: #FFF;
+    display: inline-block;
+    background: #d4f5f0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.copyright
+{
+overflow: hidden;
+padding: 3em 0em;
+border-top: 20px solid rgb(128, 139, 138);
+text-align: center;
+background:#5ea83b;
+}
+
+.copyright p
+{
+letter-spacing: 1px;
+font-size: 0.90em;
+}
